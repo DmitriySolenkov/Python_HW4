@@ -10,7 +10,7 @@ if 1 <= num <= 5:
     string = string.replace('^4', '\u2074')
     string = string.replace('^5', '\u2075')
     print(string)
-    with open('text.txt', 'a', encoding='utf-8') as f:
+    with open('text1.txt', 'w', encoding='utf-8') as f:
         f.write(string)
         f.write('\n')
 else:
